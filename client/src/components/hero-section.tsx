@@ -136,7 +136,7 @@ export default function HeroSection() {
               variant="outline"
               size="lg"
               onClick={() => window.open("tel:+17739838169")}
-              className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-full text-lg font-semibold transition-all hover:scale-105 shadow-xl"
+              className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-full text-lg font-semibold transition-all hover:scale-105 shadow-xl"
             >
               <Phone className="w-5 h-5 mr-2" />
               Call Now
